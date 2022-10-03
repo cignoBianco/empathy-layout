@@ -9,3 +9,23 @@
     --wine-color: #592141;
   }
 
+@font-face {
+    font-family: Roboto;
+    src:
+        url(./assets/fonts/Roboto/Roboto-Regular.ttf),
+        url(./assets/fonts/Roboto/Roboto-Medium.ttf),
+        url(./assets/fonts/Roboto/Roboto-MediumItalic.ttf),
+        url(./assets/fonts/Roboto/Roboto-Thin.ttf),
+        url(./assets/fonts/Roboto/Roboto-ThinItalic.ttf),
+        url(./assets/fonts/Roboto/Roboto-Light.ttf),
+        url(./assets/fonts/Roboto/Roboto-LightItalic.ttf),
+        url(./assets/fonts/Roboto/Roboto-Italic.ttf),
+        url(./assets/fonts/Roboto/Roboto-Bold.ttf),
+        url(./assets/fonts/Roboto/Roboto-BoldItalic.ttf),
+        url(./assets/fonts/Roboto/Roboto-Black.ttf),
+        url(./assets/fonts/Roboto/Roboto-BlackItalic.ttf);
+}
+
+* {
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
