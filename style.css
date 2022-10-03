@@ -184,7 +184,6 @@
     cursor: text;
     height: 30px;
     font-size: 19px;
-    
 }
 
 .contact-input-wrapper--input::placeholder {
@@ -219,6 +218,9 @@
     max-width: 570px;;
 }
 
+.second-section {
+    height: 700px;
+}
 
 
 
