@@ -42,4 +42,111 @@
 
 * {
     font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.header {
+    height: 112px;
+    position: fixed;
+    padding: 0 80px;
+    width: -webkit-fill-available;
+}
+
+.header--beige {
+    background-color: var(--beige-color);
+}
+
+.header--peach {
+    background-color: var(--peach-color);
+}
+
+.header-wine {
+    background-color: var(--wine-color);
+}
+
+.header--black {
+    background-color: var(--black-color);
+}
+
+.header-whine {
+    background-color: #FFFFFF;
+}
+
+.header-wrapper {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper--logo {
+    cursor: pointer;
+    user-select: none;
+}
+
+.header-wrapper--navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navigation-list--item {
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.navigation-list--item:hover {}
+
+.navigation-list--item:active {}
+
+.navigation-list--item:last-of-type {
+    margin-right: 0;
+}
+
+.navigation-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--black-color);
+    text-decoration: none;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
