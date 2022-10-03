@@ -248,9 +248,9 @@
 
 .first-section {
     width: -webkit-fill-available;
-    min-height: 738px;
+    min-height: 548px;
     background-color: var(--beige-color);
-    padding: 80px 120px;
+    padding: 80px 120px 0;
     margin-top: 112px;
     display: flex;
     justify-content: space-between;
@@ -343,8 +343,9 @@
     max-width: 570px;;
 }
 
-.second-section {
+.third-section {
     min-height: 700px;
+    background-color: var(--peach-color);
 }
 
 
