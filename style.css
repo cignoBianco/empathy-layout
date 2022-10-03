@@ -4,6 +4,8 @@
     --black-color: #1E1928;
     --black-color-80: #1E192880;
     --black-color-60: #1E192860;
+    --black-color-40: #1E192840;
+    --black-color-20: #1E192820;
     --grey-color: #A0B4BB;
     --peach-color: #FFD394;
     --wine-color: #592141;
@@ -11,33 +13,156 @@
 
 @font-face {
     font-family: Roboto;
-    src:
-        url(./assets/fonts/Roboto/Roboto-Regular.ttf),
-        url(./assets/fonts/Roboto/Roboto-Medium.ttf),
-        url(./assets/fonts/Roboto/Roboto-MediumItalic.ttf),
-        url(./assets/fonts/Roboto/Roboto-Thin.ttf),
-        url(./assets/fonts/Roboto/Roboto-ThinItalic.ttf),
-        url(./assets/fonts/Roboto/Roboto-Light.ttf),
-        url(./assets/fonts/Roboto/Roboto-LightItalic.ttf),
-        url(./assets/fonts/Roboto/Roboto-Italic.ttf),
-        url(./assets/fonts/Roboto/Roboto-Bold.ttf),
-        url(./assets/fonts/Roboto/Roboto-BoldItalic.ttf),
-        url(./assets/fonts/Roboto/Roboto-Black.ttf),
-        url(./assets/fonts/Roboto/Roboto-BlackItalic.ttf);
+    src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto/Roboto-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto/Roboto-Thin.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto/Roboto-ThinItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto/Roboto-Light.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto/Roboto-LightItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto/Roboto-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto/Roboto-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto/Roboto-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto/Roboto-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
 }
 
 @font-face {
     font-family: Inter;
-    src:
-        url(./assets/fonts/Inter/static/Inter-Regular.ttf),
-        url(./assets/fonts/Inter/static/Inter-Black.ttf),
-        url(./assets/fonts/Inter/static/Inter-Bold.ttf),
-        url(./assets/fonts/Inter/static/Inter-ExtraBold.ttf),
-        url(./assets/fonts/Inter/static/Inter-ExtraLight.ttf),
-        url(./assets/fonts/Inter/static/Inter-Medium.ttf),
-        url(./assets/fonts/Inter/static/Inter-Light.ttf),
-        url(./assets/fonts/Inter/static/Inter-SemiBold.ttf),
-        url(./assets/fonts/Inter/static/Inter-Thin.ttf);
+    src: url(./assets/fonts/Inter/static/Inter-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter/static/Inter-Black.ttf);
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter/static/Inter-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter/static/Inter-ExtraBold.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter/static/Inter-ExtraLight.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter/static/Inter-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter/static/Inter-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter/static/Inter-SemiBold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter/static/Inter-Thin.ttf);
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter/static/Inter-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
 }
 
 * {
@@ -123,7 +248,7 @@
 
 .first-section {
     width: -webkit-fill-available;
-    height: 738px;
+    min-height: 738px;
     background-color: var(--beige-color);
     padding: 80px 120px;
     margin-top: 112px;
@@ -148,7 +273,7 @@
 .content-wrapper--content {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
     letter-spacing: 0.252px;
     max-width: 550px;
@@ -161,7 +286,7 @@
 .contact-me-container--label {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 17px;
 }
 
@@ -187,7 +312,7 @@
 }
 
 .contact-input-wrapper--input::placeholder {
-    color: var(--black-color-60);
+    color: var(--black-color-20);
 }
 
 .contact-input-wrapper--input:focus {
@@ -219,7 +344,7 @@
 }
 
 .second-section {
-    height: 700px;
+    min-height: 700px;
 }
 
 
