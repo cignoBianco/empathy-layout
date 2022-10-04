@@ -176,6 +176,7 @@
 .header {
     height: 112px;
     position: fixed;
+    z-index: 99;
     top: 0;
     padding: 0 80px;
     width: -webkit-fill-available;
