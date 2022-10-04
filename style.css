@@ -268,6 +268,7 @@
     max-width: 400px;
     margin-bottom: 24px;
     line-height: 58px;
+    user-select: none;
 }
 
 .content-wrapper--content {
@@ -288,6 +289,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
+    user-select: none;
 }
 
 .contact-input-wrapper {
@@ -336,12 +338,88 @@
     font-size: 14px;
     color: var(--beige-color);
     cursor: pointer;
+    user-select: none;
 }
 
 .first-section--image {
     min-width: 500px;
     max-width: 570px;;
+    user-select: none;
 }
+
+.second-section {
+    width: -webkit-fill-available;
+    height: 380px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-section--beige-path {
+    height: 190px;
+    background-color: var(--beige-color);
+}
+
+.second-section--peach-path {
+    height: 190px;
+    background-color: var(--peach-color);
+}
+
+.second-section--card {
+    width: -webkit-fill-available;
+    margin: 0 120px;
+    position: absolute;
+    height: 380px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 80px 264px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section--title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 24px;
+    user-select: none;
+}
+
+.second-section--content {
+    max-width: 653px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.252px;
+    color: rgba(30, 25, 40, 0.8);
+    margin-bottom: 20px;
+}
+
+.second-section--button {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid var(--black-color);
+    border-radius: 50px;
+    padding: 10px 33px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.second-section--button:hover {}
 
 .third-section {
     min-height: 700px;
