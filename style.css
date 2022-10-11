@@ -229,7 +229,9 @@
     cursor: pointer;
 }
 
-.navigation-list--item:hover {}
+.navigation-list--item:hover {
+    text-decoration: underline;
+}
 
 .navigation-list--item:active {}
 
